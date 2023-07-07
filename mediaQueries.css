@@ -1,0 +1,763 @@
+/* media queries for home page */
+
+@media (min-width: 600px) {
+  .hike_pictures img {
+    min-width: 520px;
+  }
+
+  .about_us_container {
+    padding: 2px 12px;
+  }
+
+  #brand_name {
+    font-size: 3rem;
+  }
+
+  #slogan {
+    font-size: 2rem;
+    margin-top: -10px;
+  }
+
+  .hike_pictures h4 {
+    font-size: 2.5rem;
+  }
+
+  .linkTo_offers_container h4 {
+    font-size: 1.5rem;
+  }
+
+  .linkTo_offers_container img {
+    min-width: 82px;
+  }
+
+  #seeOffers_btn {
+    padding: 16px;
+  }
+
+  .slogan_message {
+    min-height: 420px;
+  }
+
+  footer {
+    margin-top: 100px;
+  }
+
+  footer h5 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 729px) {
+  .slogan_message {
+    min-height: 480px;
+  }
+}
+
+@media (min-width: 769px) {
+  nav {
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    position: static;
+    margin-top: -50px;
+  }
+
+  nav a {
+    display: inline;
+    background: none;
+    color: rgb(11, 11, 11);
+    padding-left: 15px;
+    font-size: 1rem;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  #brand_name {
+    font-size: 3.5rem;
+  }
+
+  #slogan {
+    font-size: 2.5rem;
+    margin-top: -10px;
+  }
+
+  .hike_pictures img {
+    min-width: 720px;
+  }
+
+  .about_us_container h3 {
+    font-size: 2rem;
+  }
+
+  #mountain_logo {
+    margin-right: 10px;
+    margin-top: -10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about_us_container {
+    padding: 8px 18px;
+  }
+
+  #brand_name {
+    font-size: 4.5rem;
+  }
+
+  #slogan {
+    font-size: 3rem;
+    margin-top: -16px;
+  }
+
+  .slogan_message {
+    min-height: 620px;
+  }
+
+  .hike_pictures h4 {
+    font-size: 3.5rem;
+  }
+
+  .hike_pictures img {
+    min-width: 480px;
+  }
+
+  .hike_pictures {
+    flex-direction: row;
+    align-items: normal;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .bigScreens-pic {
+    display: block;
+  }
+
+  .linkTo_offers_container h4 {
+    font-size: 2rem;
+  }
+
+  .linkTo_offers_container img {
+    min-width: 112px;
+  }
+
+  #seeOffers_btn {
+    padding: 18px 28px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .hike_pictures img {
+    min-width: 540px;
+  }
+}
+
+@media (min-width: 1226px) {
+  .hike_pictures img {
+    min-width: 580px;
+  }
+
+  .slogan_message {
+    min-height: 720px;
+  }
+}
+
+/* media queries for long, short, camp hikes */
+
+@media (min-width: 450px) {
+  .bookNow-btn {
+    left: 280px;
+  }
+}
+
+@media (min-width: 530px) {
+  .bookNow-btn {
+    left: 360px;
+  }
+
+  .packageType_IMG {
+    max-width: 55%;
+  }
+
+  .hikePackage_name {
+    font-size: 2rem;
+  }
+
+  h3,
+  h4,
+  h5 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 620px) {
+  .bookNow-btn {
+    left: 440px;
+  }
+
+  .packageType_IMG {
+    max-width: 45%;
+  }
+
+  #shortHikes_descr,
+  #longHikes_descr,
+  #campingHikes_descr {
+    padding: 0px 20px;
+  }
+
+  .facts_container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px 10px;
+  }
+
+  .factsAbout-Hikes {
+    margin: 40px 100px;
+  }
+
+  .pyreneesDescr_contaner,
+  .bergen_container,
+  .tuscany_container,
+  .atlasDescr_contaner,
+  .mongolia_container,
+  .yellowstoneCamping_container,
+  .australiaDescr_contaner,
+  .argentinaChile_container,
+  .india_container,
+  .atlasDescr_contaner,
+  .mongolia_container,
+  .yellowstoneCamping_container {
+    margin: 0px 20px;
+  }
+
+  p {
+    padding: 0px 20px;
+  }
+
+  .hikePackage_name {
+    font-size: 2.5rem;
+  }
+
+  h3,
+  h4,
+  h5 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .pyreneesDescr_contaner,
+  .bergen_container,
+  .australiaDescr_contaner,
+  .argentinaChile_container,
+  .india_container,
+  .atlasDescr_contaner,
+  .mongolia_container,
+  .yellowstoneCamping_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 150px);
+    padding: 0px;
+  }
+
+  .tuscany_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px 100px 140px;
+    padding-bottom: 20px;
+  }
+
+  .hike_img {
+    grid-column: 2;
+  }
+
+  .pyreneesDescr_contaner p,
+  .bergen_container p,
+  .australiaDescr_contaner p,
+  .argentinaChile_container p,
+  .india_container p,
+  .atlasDescr_contaner p,
+  .mongolia_container p,
+  .yellowstoneCamping_container p {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: 0px 70px;
+  }
+
+  .atlasDescr_contaner p,
+  .mongolia_container p,
+  .yellowstoneCamping_container p {
+    padding: 0px 5px;
+    margin-top: 30px;
+  }
+
+  .tuscany_container p {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: 0px 50px;
+  }
+
+  .bookNow-btn {
+    max-width: 120px;
+    grid-column: -3 / -2;
+    grid-row: 2 / 3;
+    left: 0;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .tuscany_container .bookNow-btn {
+    grid-row: 3 / 4;
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 840px) {
+  .hike_img {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 940px) {
+  .pyreneesDescr_contaner p,
+  .bergen_container p,
+  .australiaDescr_contaner p,
+  .argentinaChile_container p,
+  .india_container p {
+    padding: 30px 70px;
+  }
+
+  .bergen_container .bookNow-btn {
+    margin-top: 40px;
+  }
+
+  .tuscany_container p,
+  .atlasDescr_contaner p,
+  .mongolia_container p,
+  .yellowstoneCamping_container p {
+    padding-top: 20px;
+  }
+
+  .hike_img {
+    margin-top: 10px;
+  }
+
+  .tuscany_container {
+    grid-template-rows: 100px 100px 120px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hike_img {
+    max-width: 75%;
+  }
+
+  .pyreneesDescr_contaner,
+  .bergen_container {
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hikePackage_name {
+    margin-top: 40px;
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+
+  .grid_container {
+    display: grid;
+    grid-template-columns: 350px 400px 400px;
+    grid-template-rows: 100px 150px 600px;
+    margin-top: 10px;
+  }
+
+  .packageType_IMG {
+    grid-column: 3 / 5;
+    grid-row: 2 / 4;
+    max-width: 90%;
+    place-self: center;
+  }
+
+  .facts_container {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    margin: 0px;
+    text-align: start;
+    font-size: 1.2rem;
+  }
+
+  #shortHikes_descr,
+  #longHikes_descr,
+  #campingHikes_descr {
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+    font-size: 1.2rem;
+  }
+
+  .factsAbout-Hikes {
+    margin: 100px 80px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin: 30px 20px;
+  }
+
+  h3,
+  h4,
+  h5 {
+    margin-top: 100px;
+  }
+
+  .hike_img {
+    max-width: 70%;
+  }
+
+  .pyreneesDescr_contaner,
+  .bergen_container,
+  .australiaDescr_contaner,
+  .argentinaChile_container,
+  .india_container,
+  .atlasDescr_contaner,
+  .mongolia_container,
+  .yellowstoneCamping_container {
+    margin: 10px 40px;
+  }
+
+  .bookNow-btn {
+    padding: 16px 44px;
+  }
+
+  .pyreneesDescr_contaner p,
+  .bergen_container p,
+  .tuscany_container p,
+  .atlasDescr_contaner p,
+  .mongolia_container p,
+  .yellowstoneCamping_container p {
+    margin-top: 40px;
+  }
+
+  .atlasDescr_contaner p,
+  .mongolia_container p,
+  .yellowstoneCamping_container p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .tuscany_container .bookNow-btn {
+    margin-top: 10px;
+  }
+
+  footer h3,
+  h4,
+  h5 {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1330px) {
+  .packageType_IMG {
+    max-width: 80%;
+  }
+
+  .pyreneesDescr_contaner,
+  .bergen_container,
+  .tuscany_container,
+  .australiaDescr_contaner,
+  .argentinaChile_container,
+  .india_container,
+  .atlasDescr_contaner,
+  .mongolia_container,
+  .yellowstoneCamping_container {
+    margin: 10px 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 1560px) {
+  .packageType_IMG {
+    max-width: 70%;
+  }
+
+  h3,
+  h4,
+  h5 {
+    margin-top: 160px;
+  }
+
+  .pyreneesDescr_contaner,
+  .bergen_container,
+  .tuscany_container,
+  .australiaDescr_contaner,
+  .argentinaChile_container,
+  .india_container,
+  .atlasDescr_contaner,
+  .mongolia_container,
+  .yellowstoneCamping_container {
+    margin: 20px 100px;
+    padding-bottom: 120px;
+  }
+
+  .pyreneesDescr_contaner p,
+  .bergen_container p,
+  .tuscany_container p,
+  .australiaDescr_contaner p,
+  .argentinaChile_container p,
+  .india_container p,
+  .atlasDescr_contaner p,
+  .mongolia_container p,
+  .yellowstoneCamping_container p {
+    margin-top: 100px;
+  }
+
+  .bookNow-btn,
+  .bergen_container .bookNow-btn {
+    margin-top: 140px;
+  }
+
+  .tuscany_container .bookNow-btn {
+    margin-top: 200px;
+  }
+}
+
+/* Health and safety & FAQ media queries */
+
+@media (min-width: 770px) {
+  .advice-img {
+    max-width: 65%;
+  }
+
+  .advice-img2 {
+    max-width: 40%;
+    margin: 10px 0px 10px 40px;
+  }
+
+  .advice {
+    margin-top: 100px;
+  }
+
+  #health_safety {
+    margin-top: 140px;
+  }
+}
+
+@media (min-width: 910px) {
+  .advice-img3 {
+    max-width: 40%;
+  }
+}
+
+@media (min-width: 1026px) {
+  .main_grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 20px;
+  }
+
+  .background_color {
+    background: RGB(206, 179, 169, 0.5);
+  }
+
+  .FAQ_flexContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .healtSafety_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 500px 600px 500px;
+  }
+
+  #health_safety {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    margin-top: 40px;
+    min-width: 100%;
+  }
+
+  #advice1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin: 40px 10px;
+  }
+
+  #advice1_paragraph {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin: 100px 10px;
+  }
+
+  #adviceImg1 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    min-width: 100%;
+    place-self: center;
+  }
+
+  #advice2 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    margin: 40px 10px;
+  }
+
+  #advice2_paragraph {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    margin: 100px 10px;
+  }
+
+  #adviceImg2 {
+    min-width: 70%;
+    margin: 10px 0px;
+    place-self: center;
+  }
+
+  #advice3 {
+    grid-row: 4 / 5;
+    grid-column: 1 / 2;
+    margin: 40px 10px;
+  }
+
+  #advice3_paragraph {
+    grid-row: 4 / 5;
+    grid-column: 1 / 2;
+    margin: 100px 10px;
+  }
+
+  #adviceImg3 {
+    min-width: 70%;
+    margin: 10px 0px;
+    place-self: center;
+  }
+
+  #FAQ {
+    margin-top: 40px;
+    min-width: 80%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .healtSafety_grid {
+    row-gap: 60px;
+  }
+
+  #adviceImg2 {
+    min-width: 60%;
+    margin: 10px 0px;
+    place-self: center;
+  }
+
+  #adviceImg3 {
+    min-width: 60%;
+    margin: 10px 0px;
+    place-self: center;
+  }
+
+  #adviceImg1 {
+    min-width: 80%;
+  }
+}
+
+/* Booking media queries */
+
+@media (min-width: 500px) {
+  #bookings_headline {
+    margin-top: 30px;
+  }
+
+  #bookings_paragraph {
+    margin-top: 40px;
+    padding: 0px 20px 0px 10px;
+  }
+
+  .personalInfo_container,
+  .trip_details {
+    max-width: 80%;
+    margin-left: 30px;
+  }
+
+  #location {
+    padding: 10px 100px;
+    font-size: 1rem;
+  }
+
+  .submit {
+    margin-top: 30px;
+    margin-left: 250px;
+  }
+}
+
+@media (min-width: 700px) {
+  .submit {
+    margin-left: 460px;
+    max-width: 30%;
+  }
+
+  .cultureImg,
+  .natureImg,
+  .localTribe_img {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .flexBooking_container {
+    display: flex;
+    gap: 40px;
+  }
+
+  #backgroundBooking {
+    height: 75%;
+  }
+
+  .submit {
+    margin-left: 460px;
+    max-width: 30%;
+    padding: 12px 16px;
+  }
+}
+
+@media (min-width: 1440px) {
+  #bookings_headline {
+    font-size: 3rem;
+  }
+
+  .column-1 p,
+  .column-2 p {
+    padding: 0px;
+  }
+
+  footer h5 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .column-4 {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .packageType_IMG {
+    max-width: 60%;
+  }
+
+  .pyreneesDescr_contaner,
+  .bergen_container,
+  .tuscany_container,
+  .australiaDescr_contaner,
+  .argentinaChile_container,
+  .india_container,
+  .atlasDescr_contaner,
+  .mongolia_container,
+  .yellowstoneCamping_container {
+    padding-bottom: 50px;
+  }
+
+  .slogan_message {
+    height: 200px;
+  }
+}

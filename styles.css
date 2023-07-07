@@ -1,0 +1,510 @@
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Geo', sans-serif;
+font-family: 'Martel Sans', sans-serif; */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgba(220, 203, 170, 1);
+  min-height: 30px;
+  position: relative;
+  padding: 10px 20px;
+  font-size: 2.5rem;
+  border-bottom: 1px solid rgb(80, 76, 76, 0.5);
+}
+
+nav {
+  position: absolute;
+}
+
+nav,
+#checkbox_menu {
+  display: none;
+}
+
+#checkbox_menu:checked ~ nav {
+  display: block;
+}
+
+nav a {
+  display: block;
+  color: white;
+  background: rgb(164, 52, 52);
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 10px;
+  margin-left: -20px;
+  text-decoration: none;
+}
+
+#mountain_logo {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+
+/* end of header */
+
+/* Start of main section */
+
+.slogan_message {
+  background-image: url(images/danka-peter-178-unsplash.jpg);
+  min-height: 360px;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1px;
+}
+
+.message_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.main_iconIMG {
+  max-width: 180px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+#brand_name {
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+}
+
+#slogan {
+  font-size: 1.5rem;
+  font-family: "Dancing Script", cursive;
+}
+
+.about_us_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px 5px;
+  min-height: 680px;
+  gap: 8px;
+  margin-top: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.about_us_container h3 {
+  font-family: "Geo", sans-serif;
+  font-size: 22px;
+}
+
+.about_us_container p {
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.8;
+  font-family: "Martel Sans", sans-serif;
+}
+
+.sandColor_background {
+  background: #f8ebe5;
+  border-radius: 4px;
+}
+
+.hike_pictures {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hike_pictures h4 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+}
+
+.hike_pictures img {
+  width: 380px;
+  border: 3px solid #fcbc64;
+  margin: 5px 0px;
+}
+
+.linkTo_offers_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  background: #f8ebe5;
+  margin-top: 50px;
+}
+
+.linkTo_offers_container h4 {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.linkTo_offers_container img {
+  min-width: 40px;
+}
+
+#seeOffers_btn {
+  background: yellowgreen;
+  color: rgb(14, 30, 13);
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid rgb(176, 138, 138);
+  border-radius: 8px;
+  padding: 8px;
+  margin-top: 16px;
+}
+
+/* start of footer */
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  background: #9ec4ca;
+  margin-top: 30px;
+  border-top: 2px solid RGB(12, 76, 91);
+}
+
+footer h5 {
+  font-size: 1rem;
+  padding-right: 5px;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+.column-1,
+.column-2,
+.column-3,
+.column-4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.column-1 p,
+.column-2 p,
+.column-3 p {
+  margin: 5px auto;
+  padding: 0px 5px;
+}
+
+footer img {
+  max-width: 26px;
+}
+
+.socMedia-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.compass_icon {
+  max-width: 60px;
+}
+
+.column-1 {
+  grid-column: 1 / 2;
+}
+
+.column-2 {
+  grid-column: 2 / 3;
+}
+
+.column-3 {
+  grid-column: 3 / 4;
+}
+
+.column-4 {
+  grid-column: 4 / 5;
+  align-items: center;
+}
+
+/* ______________________________________________
+          Start of short hikes page, long hikes  & camping hikes 
+   ______________________________________________
+*/
+
+.hikePackage_name {
+  font-family: "Geo", sans-serif;
+  font-size: 24px;
+  min-width: 100%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.packageType_IMG {
+  display: block;
+  max-width: 65%;
+  margin: 0px auto;
+  border: 2px solid RGB(167, 125, 101);
+}
+
+#shortHikes_descr,
+#campingHikes_descr,
+#longHikes_descr {
+  font-family: "Martel Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 30px auto;
+  padding: 0px 10px;
+}
+
+.factsAbout-Hikes {
+  margin: 30px 20px;
+  padding: 10px 10px;
+  font-family: "Geo", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: rgba(248, 235, 229, 0.52);
+}
+
+.facts_container {
+  background: rgba(248, 235, 229, 0.52);
+  text-align: center;
+  padding: 10px 10px 10px 0px;
+  border: 2px solid black;
+  border-radius: 10px;
+  line-height: 2;
+  font-family: "Martel Sans", sans-serif;
+  font-size: 1rem;
+}
+
+h3,
+h4,
+h5 {
+  font-family: "Geo", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin: 50px auto 20px;
+}
+
+.hike_img,
+.localTribe_img,
+.natureImg,
+.cultureImg {
+  display: block;
+  max-width: 90%;
+  margin: 20px auto;
+  border: 1px solid blanchedalmond;
+  border-radius: 5px;
+}
+
+.hike_img {
+  border: 2px solid RGB(84, 40, 60, 0.5);
+}
+
+.pyreneesDescr_contaner,
+.bergen_container,
+.tuscany_container,
+.atlasDescr_contaner,
+.mongolia_container,
+.yellowstoneCamping_container,
+.australiaDescr_contaner,
+.argentinaChile_container,
+.india_container {
+  background: rgba(248, 235, 229, 1);
+  padding: 10px 0px 40px;
+  border: 3px solid RGB(167, 125, 101, 0.4);
+  border-radius: 5px;
+}
+
+p {
+  font-family: "Martel Sans", sans-serif;
+  text-align: center;
+  margin: 20px auto 40px;
+}
+
+.bookNow-btn {
+  background-color: rgba(252, 188, 100, 1);
+  color: black;
+  padding: 12px 18px;
+  text-decoration: none;
+  font-weight: 800;
+  border: 2px solid RGB(147, 108, 131);
+  border-radius: 8px;
+  margin-top: 10px;
+  position: relative;
+  left: 240px;
+  cursor: pointer;
+}
+
+/* ______________________________________________
+                      End 
+   ______________________________________________
+*/
+
+/* ______________________________________________
+             Health and safety & FAQ
+   ______________________________________________
+*/
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Geo', sans-serif;
+font-family: 'Martel Sans', sans-serif; */
+
+#FAQ,
+#health_safety {
+  background: rgba(248, 235, 229, 1);
+  max-width: 50%;
+  text-align: center;
+  font-family: "Geo", sans-serif;
+  margin-top: 50px;
+}
+
+#health_safety {
+  font-size: 2em;
+  font-weight: bold;
+  max-width: 60%;
+}
+
+.question,
+.advice {
+  font-size: 1.5rem;
+  text-align: start;
+  margin-left: 20px;
+}
+
+.answer {
+  font-size: 1rem;
+  text-align: start;
+  margin-left: 10px;
+}
+
+.advice-img {
+  max-width: 80%;
+  display: block;
+  margin: 0px auto;
+}
+
+.advice-img2 {
+  max-width: 50%;
+  margin-left: 20px;
+}
+
+.advice-img3 {
+  max-width: 60%;
+  display: block;
+  margin: 0px auto;
+}
+
+/* ______________________________________________
+                      End 
+   ______________________________________________
+*/
+
+/* ______________________________________________
+                  Bookings
+   ______________________________________________
+*/
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Geo', sans-serif;
+font-family: 'Martel Sans', sans-serif; */
+
+#bookings_headline {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+}
+
+.personalInfo_container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Martel Sans", sans-serif;
+}
+
+label {
+  padding: 4px 10px;
+  margin: 3px 0px -5px 0px;
+}
+
+input {
+  padding: 10px 5px;
+  border: 2px solid black;
+  margin: 2px 5px;
+}
+
+legend {
+  margin: 20px 5px;
+}
+
+#location {
+  display: block;
+  padding: 10px 10px;
+  border: 2px solid black;
+}
+
+.trip_details {
+  display: flex;
+  flex-direction: column;
+}
+
+.private_trip {
+  margin: 10px 5px;
+  text-align: start;
+}
+
+.comment {
+  padding-bottom: 60px;
+}
+
+.submit {
+  max-width: 40%;
+  margin: 20px 0px 0px 200px;
+  color: black;
+  background: rgba(245, 157, 118, 1);
+  border: 1px solid rgb(164, 158, 158);
+  border-radius: 5px;
+  font-family: "Martel Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.benefitsOf_comapny {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefitsOf_comapny h2 {
+  font-family: "Geo", sans-serif;
+  text-align: center;
+  margin: 80px 40px 10px 40px;
+  background: rgba(248, 235, 229, 1);
+  border: 1px solid rgb(85, 83, 83);
+  padding: 20px 10px;
+}
+
+.benefitsOf_comapny h3 {
+  font-family: "Martel Sans", sans-serif;
+  font-size: 1.2rem;
+  margin: 20px auto;
+}
+
+.benefitsOf_comapny h4 {
+  font-family: "Martel Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 20px auto;
+}
+
+.bigScreens-pic {
+  display: none;
+}
+
+#backgroundBooking {
+  background-color: RGB(196, 223, 220, 0.3);
+  padding: 40px;
+  max-height: 70%;
+  border: 1px solid silver;
+  border-radius: 5px;
+}

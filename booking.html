@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Booking page, where you can read about benefits traveling with company, and also book a hike"
+    />
+    <script
+      src="https://kit.fontawesome.com/558153e5d0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Geo&family=Martel+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaQueries.css" />
+    <title>Bookings</title>
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="checkbox_menu" />
+      <label for="checkbox_menu"><i class="fa-solid fa-bars"></i></label>
+      <img
+        id="mountain_logo"
+        src="/images/icons/logo.png"
+        alt="Small logo with mountains"
+      />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="shortHikes.html">Short hikes</a>
+        <a href="campingHikes.html">Camping hikes</a>
+        <a href="longHikes.html">Long hikes</a>
+        <a href="healthSafetyFAQ.html">Health and Safety & FAQ</a>
+        <a href="booking.html">Booking</a>
+      </nav>
+    </header>
+    <main>
+      <h1 id="bookings_headline">Book your next adventure</h1>
+      <p id="bookings_paragraph">
+        Please complete the below form to request a reservation. A member of
+        "Adventure trail hikes" crew will contact you shortly, to confirm
+        availability on the trip and/or provide you with other options.
+      </p>
+      <section class="flexBooking_container">
+        <div class="personalInfo_container" id="backgroundBooking">
+          <label for="firstName">First Name</label>
+          <input
+            type="text"
+            id="firstName"
+            name="firstname"
+            required
+            class="form_input"
+          />
+          <label for="lastName">Last Name</label>
+          <input
+            type="text"
+            id="lastName"
+            name="lastname"
+            required
+            class="form_input"
+          />
+          <label for="Email">Email</label>
+          <input
+            type="email"
+            id="email"
+            pattern=".+@globex\.com"
+            required
+            class="form_input"
+          />
+          <label for="phoneNumber">Phone Number</label>
+          <input type="tel" name="number" id="phoneNumber" class="form_input" />
+          <legend>
+            Where to?
+            <select name="location" id="location">
+              <option value="India">India</option>
+              <option value="Argentina/Chile">Argentina</option>
+              <option value="Morocco">Morocco</option>
+              <option value="Mongolia">Mongolia</option>
+              <option value="USA">USA</option>
+              <option value="Australia">Australia</option>
+            </select>
+          </legend>
+          <label for="group">How many people in the group?</label>
+          <input type="text" id="group" name="group" />
+          <p class="private_trip">Are you requesting Private Trip</p>
+          <input type="text" id="answer" name="answer" />
+          <label for="answer"></label>
+          <label for="start">Start date:</label>
+          <input
+            type="date"
+            id="start"
+            name="trip-start"
+            value="2023-06-22"
+            min="2023-006-22"
+            max="2024-12-31"
+          />
+          <label for="start">End date:</label>
+          <input
+            type="date"
+            id="end"
+            name="trip-end"
+            value="2023-06-22"
+            min="2023-006-22"
+            max="2024-12-31"
+          />
+          <label for="Comment">Comment</label>
+          <input type="text" id="Comment" name="comment" / class="comment">
+          <input type="submit" value="Submit" class="submit" />
+        </div>
+        <div class="benefitsOf_comapny">
+          <h2>Why travel with Adventure Trail Hikes</h2>
+          <h3>Local connections</h3>
+          <img
+            class="localTribe_img"
+            src="images/oziel-gomez-221715-unsplash.jpg"
+            alt="Picture of local tribe"
+          />
+          <p>
+            Adventure Trails works closely with local organizations to ensure
+            that much of the profit goes back to the local communities. This may
+            be in the form of infrastructure and trail maintenance to support
+            local businesses and communities.
+          </p>
+          <h3>Respect for nature</h3>
+          <img
+            class="natureImg"
+            src="images/alta-badia-sustainability-by-alex-moling-5-1.jpg"
+            alt="Picture of two people hiking in a nature"
+          />
+          <p>
+            Many of our hikes include extra activities such as bird watching and
+            short courses on edible local plants.
+          </p>
+          <h3>Culture</h3>
+          <img
+            class="cultureImg"
+            src="images/local dance.webp"
+            alt="Indian people dancing in a traditional desses"
+          />
+          <p>
+            In the interest of cultural exchange and sustainability Adventure
+            Trails also includes cultural activities, which include experiences
+            of various local customs, dress, theatre, dance, and music.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="column-1">
+        <h5>Company</h5>
+        <p>About us</p>
+        <p>News and articles</p>
+        <p>Career</p>
+      </div>
+      <div class="column-2">
+        <h5>Get in touch</h5>
+        <div class="socMedia-icons">
+          <img
+            src="images/icons/cib_facebook.png"
+            alt="Grey color facebook icon"
+          />
+          <img
+            src="images/icons/uil_instagram-alt.png"
+            alt="Grey color instagram icon"
+          />
+        </div>
+        <p>Call us on 555 1000</p>
+        <p>Email: trail.hikes@gmail.com</p>
+      </div>
+      <div class="column-3">
+        <h5>Legal Info</h5>
+        <p>Terms & conditions</p>
+        <p>Privacy policy</p>
+        <p>Cookie policy</p>
+      </div>
+      <div class="column-4">
+        <h5>Adventure Trail Hikes</h5>
+        <img
+          class="compass_icon"
+          src="images/icons/compass.svg"
+          alt="Compass icon"
+        />
+      </div>
+    </footer>
+  </body>
+</html>
