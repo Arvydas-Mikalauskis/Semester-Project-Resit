@@ -16,7 +16,7 @@ https://semester-project1-resit.netlify.app/
 
 ## Feedback
 
-If you have any feedback, please reach out to us at fake@fake.com
+If you have any feedback, please reach out to us at arvis@post.com
 
 
 ## Tech Stack
